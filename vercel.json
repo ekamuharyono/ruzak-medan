@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/checkout",
+      "dest": "/pages/checkout.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/pages/index.php"
+    }
+  ]
+}
